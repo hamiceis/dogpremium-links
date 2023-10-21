@@ -240,11 +240,15 @@ footer {
 #ticker p {
   display: flex;
   align-items: center;
-  color: var(--text-color);
+  color: #FFF;
   gap: 20px;
   font-size: 20px;
   font-weight: bold;
   padding: 0 10px;
+}
+
+#ticker .i {
+  color: #FFF;
 }
 
 @keyframes ticker {
